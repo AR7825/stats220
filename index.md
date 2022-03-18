@@ -65,7 +65,7 @@ My motivation behind the meme was the fact that my skills of making a meme and t
 - I added **Avatar the Last Airbender** pictures to add a touch of my own flair 😂 to this meme. 
 - I added an orignal touch to the meme as I flipped the words and pictures so they'd be laying on the side as it's easier to read and understand. 
 - I added a black background colour and white text for the words to pop out more
-- If you want to create a meme like I have, download R-studio to your desktop using the website https://www.rstudio.com/products/rstudio/download/. 
+- If you want to create a meme like I have, download R-studio to your desktop using this website https://www.rstudio.com/products/rstudio/download/. 
 
 ## Image Sources
 - https://www.pinterest.nz/pin/220465344248683770/ 
