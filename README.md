@@ -6,4 +6,4 @@ The purpose of this repository is to demonstrate the skills i've learnt in Stats
 # Meme
 I decided to create a meme on Avatar The Last Airbender as it is a nostalgic show that I enjoy watching.💧⛰🔥💨
 
-Click on the website to check out my meme!
+Click on my github website to check out my meme!
