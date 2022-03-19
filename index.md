@@ -2,7 +2,8 @@
 This is the meme I made using Rstudio and Magick 
 
 ### _Zuko Meme_
-![meme](https://user-images.githubusercontent.com/101862073/158961509-730164f8-adbd-4845-a240-87588e7e6cb8.png)
+![my_meme](https://user-images.githubusercontent.com/101862073/159107727-a393b7cd-1f49-411a-90e5-5b63aad81358.png)
+
 
 
 ## Source Code of Meme 
@@ -10,7 +11,7 @@ This is the meme I made using Rstudio and Magick
 ``` 
 library(magick)
 # square one
-url<-("https://user-images.githubusercontent.com/101681189/158502553-099745f1-9e1c-4872-ba6d-eb01d3b140bb.png")
+url<-("https://i.pinimg.com/564x/f2/26/5e/f2265ee4310af731a033e5323c130aaa.jpg")
 zuko_before <-image_read(url) %>%
   image_scale(500)
 
@@ -25,13 +26,13 @@ zuko_beforetext <- image_blank(width = 500,
                  location = "+100+100") 
 
 # square three
-zuko_after <-image_read ("https://user-images.githubusercontent.com/101681189/158505782-7d42a714-ac7d-41d9-9b1d-a9d332c8a4c2.jpeg") %>% 
+zuko_after <-image_read ("https://static.wikia.nocookie.net/avatar/images/c/ce/Complete_Team_Avatar_group_hug.png/revision/latest/scale-to-width-down/333?cb=20120723100718") %>% 
   image_scale(500)
 
 
 # square four
 zuko_aftertext <- image_blank (width = 500, 
-                               height = 350,
+                               height = 380,
                                color = "black") %>% 
   image_annotate(text = "Then you don't\ndeserve me at my",
                  color = "#FFFFFF", 
@@ -52,7 +53,7 @@ my_meme <- c(top_row, bottom_row) %>%
   image_append(stack = TRUE) %>%
   image_scale(800)
 image_write(my_meme, path = "meme.png", format = "png")
-my_meme 
+my_meme
 ```
 
 
